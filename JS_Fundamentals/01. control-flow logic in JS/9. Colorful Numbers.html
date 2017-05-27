@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>9. Colorful Numbers</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function insertN(n) {
+        let html = '<ul>\n';
+        for (let i = 1; i <= n; i += 1) {
+            let color = (i%2==0)?"green":"blue";
+            html += `\t<li><span style="color:${color}">${i}</span></li>\n`;
+        }
+        html += '</ul>';
+        return html
+    }
+    document.body.innerHTML = insertN(['23']);
+
+</script>
+
+</html>
