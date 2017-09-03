@@ -21,6 +21,12 @@ namespace _01.Define_a_class_Person
             Person Stamat = new Person();
             pesho.name = "Stamat";
             pesho.age = 43;
+
+            Person Ivan = new Person
+            {
+                name = "Ivan",
+                age = 43
+            };
         }
     }
 }

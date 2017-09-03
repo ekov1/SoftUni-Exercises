@@ -21,15 +21,27 @@ namespace _03.Opinion_Poll
                 people.Add(new Person(name, age));
             }
 
-            var sorted = people.OrderBy(x => x.name);
-            Console.WriteLine();
-            foreach (var p in sorted)
-            {
-                if (p.age > 30)
-                {
-                    Console.WriteLine("{0} - {1}", p.name, p.age);
-                }
-            }
+            //var sorted = people
+            //    .Where(x => x.age > 30)
+            //    .OrderBy(x => x.name);
+
+            //Console.WriteLine();
+            //foreach (var p in sorted)
+            //{
+            //    Console.WriteLine("{0} - {1}", p.name, p.age);
+            //}
+
+            people
+                .Where(p => p.age > 30)
+                .OrderBy(p => p.name)
+                .ToList()
+                .ForEach(p => Console.WriteLine($"{p.name} - {p.age}"));
+
+            //.ForEach(p =>
+            //{
+            //    Console.WriteLine($"{p.name} - {p.age}");
+            //});
+
         }
     }
 }

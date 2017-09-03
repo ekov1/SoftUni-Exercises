@@ -14,8 +14,8 @@
         }
 
         public Person(int age)
+           : this()
         {
-            this.name = "No name";
             this.age = age;
         }
 

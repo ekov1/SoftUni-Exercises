@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Creating Constructors",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Opinion Poll", "03. Opinion Poll\03. Opinion Poll.csproj", "{A502C22E-4E23-4B1F-8EEC-FCB421B9D0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Company Roster", "04. Company Roster\04. Company Roster.csproj", "{7D5B5A11-FC55-4EA5-848A-413137C1DECA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A502C22E-4E23-4B1F-8EEC-FCB421B9D0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A502C22E-4E23-4B1F-8EEC-FCB421B9D0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A502C22E-4E23-4B1F-8EEC-FCB421B9D0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5B5A11-FC55-4EA5-848A-413137C1DECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5B5A11-FC55-4EA5-848A-413137C1DECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5B5A11-FC55-4EA5-848A-413137C1DECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5B5A11-FC55-4EA5-848A-413137C1DECA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
